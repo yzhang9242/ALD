@@ -3,13 +3,13 @@ USE ieee.std_logic_1164.all;
 
 ENTITY dna_detector IS
 	PORT (
-			a : IN	STD_LOGIC_VECTOR(19 DOWNTO 0);
-			b : IN	STD_LOGIC_VECTOR(19 DOWNTO 0);
-			z : OUT 	STD_LOGIC_VECTOR(19 DOWNTO 0));
+			a : IN	STD_LOGIC_VECTOR(0 TO 19);
+			b : IN	STD_LOGIC_VECTOR(0 TO 19);
+			z : OUT 	STD_LOGIC_VECTOR(0 TO 19));
 END dna_detector;
 
 ARCHITECTURE behavior OF dna_detector IS
-	SIGNAL y0, y1, y2, y3 : STD_LOGIC_VECTOR(19 DOWNTO 1);
+	SIGNAL y0, y1, y2, y3 : STD_LOGIC_VECTOR(1 To 19);
 	
 	COMPONENT dna_lm1_cell
 		PORT (	b : IN	STD_LOGIC;

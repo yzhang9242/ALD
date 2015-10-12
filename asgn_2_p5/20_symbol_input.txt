@@ -1,0 +1,29 @@
+(g)
+
+(i)
+	Input vector with two distinct "Initiator Motif"
+			ACTAAATTGCGTCTATTTTT
+	a(0-19)	00100011101101011111
+	b(0-19)	01100011010111011111
+	z(0-19)	00000001000000000010
+
+(ii)
+	Input vector which contains no "Initiator Motif"
+			AACTAACTTCCAGTGCCATA
+	a(0-19)	00010001100011100010
+	b(0-19)	00110011111001011010
+	z(0-19)	00000000000000000000
+
+(iii)
+	Input vector with a complicated mix of several partial "Initiator Motif"
+			CTAAACGACCCATGCTACTC
+	a(0-19)	01000010000011010010
+	b(0-19)	11000100111010110111
+	z(0-19)	00000000000000000000
+(iv)
+	Input vector with several adjacent and mutually-overlapping adjacent "Initiator Motif"
+			CTAGTCCAAACTCTACTCTC
+	a(0-19)	01011000000101001010
+	b(0-19)	11001110001111011111
+	z(0-19)	00000010000100000010
+(v)
